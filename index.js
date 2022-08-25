@@ -18,7 +18,7 @@ const args = process.argv.slice(2);
 // ALL DIR PATH
 const _tmplPath = path.join(__dirname, "_tmpl"),
       _postPath = path.join(__dirname, "_post"),
-      _htmlPath = path.join(__dirname, "html")
+      _htmlPath = path.join(__dirname, "docs")
 // GENERATE FILL FUNCTION
 // IT'S FLOW AS 
 const generate = () => {

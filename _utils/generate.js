@@ -10,7 +10,7 @@ const { config } = require('../package.json')
 // ALL DIR PATH
 const _tmplPath = path.join(__dirname, "../_tmpl"),
       _postPath = path.join(__dirname, "../_post"),
-      _htmlPath = path.join(__dirname, "../html")
+      _htmlPath = path.join(__dirname, "../docs")
 const Regs = require('./regs');
 
 // CONFIG MARKED
