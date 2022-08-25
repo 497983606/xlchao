@@ -11,32 +11,32 @@
   "config": {
     "port": 5002,
     "website": {
-      "title": "title--",
+      "title": "xlchao-blog",
       "baseUrl": "",
-      "listlen": 2,
+      "listlen": 20,
       "dateFmt": "YYYY-mm-dd HH",
       "postStart": 1024,
-      "defNav": "技术",
+      "defCategory": "Tech",
       "lang": {
-        "pre": "上一篇",
-        "next": "下一篇",
-        "home": "首页"
+        "pre": "Pre",
+        "next": "Next",
+        "home": "Home"
       },
       "nav": {
-        "sudasu": {
-          "title": "实打实的都是",
+        "tech": {
+          "title": "Tech Research",
           "type": "list",
-          "category": "技术"
+          "category": "Tech"
         },
         "life": {
-          "title": "实打实的都是",
+          "title": "My Life",
           "type": "list",
-          "category": "生活"
+          "category": "Life"
         },
-        "suda2": {
-          "title": "实打实",
+        "about": {
+          "title": "About",
           "type": "page",
-          "category": "页面"
+          "category": "About"
         }
       }
     }
